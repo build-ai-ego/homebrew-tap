@@ -3,9 +3,9 @@ class BuildaiCli < Formula
   preserve_rpath
   desc "Build AI CLI"
   homepage "https://github.com/build-ai-ego/data-build-ai"
-  url "https://files.pythonhosted.org/packages/55/e4/16c25ce69b2fde0eeaff28bf53b5d15e88bb7ec9b77698138fb15915f1ae/buildai_cli-0.2.0-py3-none-any.whl"
-  sha256 "78137b4a716cdd4bcb70337b7710ccdf9d37e8ed93f4c4f7b61e9dbfe3d5abcb"
-  version "0.2.0"
+  url "https://files.pythonhosted.org/packages/67/21/c629fa8abad49e7a8fb63da2f8fe953c6a6857b5b0fd771e4e93b54d8f75/buildai_cli-0.2.1-py3-none-any.whl"
+  sha256 "599a1706aba19b0765ef23b93a0439d79486e251a33d00759508edce839e19a4"
+  version "0.2.1"
   depends_on "python@3.11"
   def install
     wheel = Dir["*.whl"].first
